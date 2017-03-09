@@ -1,0 +1,43 @@
+﻿.pad_some_sides{
+	padding-left: 100px;
+	padding-right:100px;
+}
+
+.pad_some_top{
+	padding-top:80px;
+}
+
+#main-page-background{
+	position: absolute;
+	z-index: 0;
+	top: 0;
+}
+
+.white_text{
+	color:white;
+}
+
+.center{
+	text-align: center;
+}
+
+.main_header{
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.main_description{
+	font-size: 24px;
+}
+
+.box_shadow{
+	background:rgba(41, 41, 48, 0.5);
+}
+
+body{
+	font-family: Callibri, Georgia, serif;
+	background-color:#99e6ff;
+	background-size: cover;
+	background-image: url("../images/norway.jpeg");
+	background-repeat: no-repeat;
+}
