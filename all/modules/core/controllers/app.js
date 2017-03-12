@@ -30,6 +30,12 @@ angular
             .when('/send_comments', {
                 templateUrl: 'modules/comments/views/send_comments.html'
             })
+            .when('/registration', {
+                templateUrl: 'modules/core/views/registration.html'
+            })
+            .when('/login', {
+                templateUrl: 'modules/core/views/login.html'
+            })
             .otherwise({
                 redirectTo: '/'
             });

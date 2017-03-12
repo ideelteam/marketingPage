@@ -36,8 +36,13 @@
 
 body{
 	font-family: Callibri, Georgia, serif;
-	background-color:#99e6ff;
+	/*background-color:#99e6ff;*/
+	background-color: lightgrey;
 	background-size: cover;
-	background-image: url("../images/norway.jpeg");
+	/*background-image: url("../images/norway.jpeg");*/
 	background-repeat: no-repeat;
+}
+
+.form-control{
+	text-align:center;
 }
